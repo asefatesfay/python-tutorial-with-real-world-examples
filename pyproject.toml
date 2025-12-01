@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Python Mastery Tutorial for AI/ML Engineers - Real-world examples for senior engineers with Go/JavaScript/DevOps experience"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
+package-mode = false
 license = "MIT"
 homepage = "https://github.com/yourusername/python-tutorial-with-real-world-examples"
 keywords = ["python", "tutorial", "ai", "ml", "langchain", "rag", "embeddings"]

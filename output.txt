@@ -1,0 +1,446 @@
+Updating dependencies
+Resolving dependencies...
+
+Package operations: 29 installs, 0 updates, 0 removals
+
+  - Installing lxml (4.9.4)
+  - Installing tiktoken (0.7.0)
+
+PEP517 build of a dependency failed
+
+Backend subprocess exited when trying to invoke build_wheel
+
+    | Command '['/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1zdtghai/.venv/bin/python', '/Users/x3p8/Library/Application Support/pypoetry/venv/lib/python3.13/site-packages/pyproject_hooks/_in_process/_in_process.py', 'build_wheel', '/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpwfv7wxt4']' returned non-zero exit status 1.
+    | 
+    | <string>:67: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+    | /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1zdtghai/.venv/lib/python3.13/site-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+    | !!
+    | 
+    |         ********************************************************************************
+    |         Please consider removing the following classifiers in favor of a SPDX license expression:
+    | 
+    |         License :: OSI Approved :: BSD License
+    | 
+    |         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+    |         ********************************************************************************
+    | 
+    | !!
+    |   self._finalize_license_expression()
+    | Building lxml version 4.9.4.
+    | Building without Cython.
+    | Building against libxml2 2.9.13 and libxslt 1.1.35
+    | Building against libxml2/libxslt in the following directory: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+    | running bdist_wheel
+    | running build
+    | running build_py
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/_elementpath.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/sax.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/pyclasslookup.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/__init__.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/builder.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/doctestcompare.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/usedoctest.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/cssselect.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/ElementInclude.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/__init__.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/soupparser.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/defs.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/_setmixin.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/clean.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/_diffcommand.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/html5parser.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/__init__.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/formfill.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/builder.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/ElementSoup.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/_html5builder.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/usedoctest.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | copying src/lxml/html/diff.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/html
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron
+    | copying src/lxml/isoschematron/__init__.py -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron
+    | copying src/lxml/etree.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/etree_api.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/lxml.etree.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/lxml.etree_api.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/objectify.pyx -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/etree.pyx -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/public-api.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xmlid.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/cleanup.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xslt.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xpath.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/debug.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/serializer.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/classlookup.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/saxparser.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/objectpath.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/relaxng.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xinclude.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/iterparse.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/parser.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/dtd.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/apihelpers.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xmlerror.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/readonlytree.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/extensions.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xmlschema.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/schematron.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/docloader.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/nsclasses.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/parsertarget.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/xsltext.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/proxy.pxi -> build/lib.macosx-15.0-arm64-cpython-313/lxml
+    | copying src/lxml/includes/xmlerror.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/c14n.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/xmlschema.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/__init__.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/schematron.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/tree.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/uri.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/etreepublic.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/xpath.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/htmlparser.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/xslt.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/config.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/xmlparser.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/xinclude.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/dtdvalid.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/relaxng.pxd -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/lxml-version.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | copying src/lxml/includes/etree_defs.h -> build/lib.macosx-15.0-arm64-cpython-313/lxml/includes
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/rng
+    | copying src/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/rng
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl
+    | copying src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl
+    | copying src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl
+    | creating build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/lib.macosx-15.0-arm64-cpython-313/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+    | running build_ext
+    | building 'lxml.etree' extension
+    | creating build/temp.macosx-15.0-arm64-cpython-313/src/lxml
+    | clang -fno-strict-overflow -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -O3 -Wall -DCYTHON_CLINE_IN_TRACEBACK=0 -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -Isrc -Isrc/lxml/includes -I/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1zdtghai/.venv/include -I/opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13 -c src/lxml/etree.c -o build/temp.macosx-15.0-arm64-cpython-313/src/lxml/etree.o -w -flat_namespace
+    | src/lxml/etree.c:5988:39: error: call to undeclared function '_PyInterpreterState_GetConfig'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  5988 |     __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
+    |       |                                       ^
+    | src/lxml/etree.c:5988:107: error: member reference type 'int' is not a pointer
+    |  5988 |     __pyx_assertions_enabled_flag = ! _PyInterpreterState_GetConfig(__Pyx_PyThreadState_Current->interp)->optimization_level;
+    |       |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^
+    | src/lxml/etree.c:255376:7: error: call to undeclared function '_PyDict_SetItem_KnownHash'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  255376 |   if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_getitem, __pyx_t_9) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
+    |         |       ^
+    | src/lxml/etree.c:6652:38: note: expanded from macro '__Pyx_SetNameInClass'
+    |  6652 |     (likely(PyDict_CheckExact(ns)) ? _PyDict_SetItem_KnownHash(ns, name, value, ((PyASCIIObject *) name)->hash) : PyObject_SetItem(ns, name, value))
+    |       |                                      ^
+    | src/lxml/etree.c:255376:7: note: did you mean '_PyDict_GetItem_KnownHash'?
+    | src/lxml/etree.c:6652:38: note: expanded from macro '__Pyx_SetNameInClass'
+    |  6652 |     (likely(PyDict_CheckExact(ns)) ? _PyDict_SetItem_KnownHash(ns, name, value, ((PyASCIIObject *) name)->hash) : PyObject_SetItem(ns, name, value))
+    |       |                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/dictobject.h:38:24: note: '_PyDict_GetItem_KnownHash' declared here
+    |    38 | PyAPI_FUNC(PyObject *) _PyDict_GetItem_KnownHash(PyObject *mp, PyObject *key,
+    |       |                        ^
+    | src/lxml/etree.c:264446:13: error: call to undeclared function '_PyUnicode_FastCopyCharacters'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  264446 |             _PyUnicode_FastCopyCharacters(result_uval, char_pos, uval, 0, ulength);
+    |         |             ^
+    | src/lxml/etree.c:264446:13: note: did you mean 'PyUnicode_CopyCharacters'?
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/unicodeobject.h:416:24: note: 'PyUnicode_CopyCharacters' declared here
+    |   416 | PyAPI_FUNC(Py_ssize_t) PyUnicode_CopyCharacters(
+    |       |                        ^
+    | src/lxml/etree.c:265182:35: error: use of undeclared identifier '_PyObject_NextNotImplemented'; did you mean 'PyObject_HashNotImplemented'?
+    |  265182 |         if (unlikely(iternext == &_PyObject_NextNotImplemented))
+    |         |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |         |                                   PyObject_HashNotImplemented
+    | src/lxml/etree.c:1096:43: note: expanded from macro 'unlikely'
+    |  1096 |   #define unlikely(x) __builtin_expect(!!(x), 0)
+    |       |                                           ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/object.h:591:23: note: 'PyObject_HashNotImplemented' declared here
+    |   591 | PyAPI_FUNC(Py_hash_t) PyObject_HashNotImplemented(PyObject *);
+    |       |                       ^
+    | src/lxml/etree.c:265973:13: error: call to undeclared function '_PyGen_SetStopIterationValue'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  265973 |             _PyGen_SetStopIterationValue(result);
+    |         |             ^
+    | src/lxml/etree.c:265973:13: note: did you mean '__Pyx_PyGen__FetchStopIterationValue'?
+    | src/lxml/etree.c:265728:12: note: '__Pyx_PyGen__FetchStopIterationValue' declared here
+    |  265728 | static int __Pyx_PyGen__FetchStopIterationValue(CYTHON_UNUSED PyThreadState *__pyx_tstate, PyObject **pvalue) {
+    |         |            ^
+    | src/lxml/etree.c:267806:5: error: call to undeclared function '_PyErr_FormatFromCause'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  267806 |     _PyErr_FormatFromCause(
+    |         |     ^
+    | src/lxml/etree.c:268071:19: error: call to undeclared function '_PySet_NextEntry'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+    |  268071 |         int ret = _PySet_NextEntry(iter_obj, ppos, value, &hash);
+    |         |                   ^
+    | src/lxml/etree.c:269068:70: error: too few arguments to function call, expected 6, have 5
+    |  269066 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  269067 |                                               bytes, sizeof(val),
+    |  269068 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:269377:70: error: too few arguments to function call, expected 6, have 5
+    |  269375 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  269376 |                                               bytes, sizeof(val),
+    |  269377 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:269573:70: error: too few arguments to function call, expected 6, have 5
+    |  269571 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  269572 |                                               bytes, sizeof(val),
+    |  269573 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:269769:70: error: too few arguments to function call, expected 6, have 5
+    |  269767 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  269768 |                                               bytes, sizeof(val),
+    |  269769 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:270003:70: error: too few arguments to function call, expected 6, have 5
+    |  270001 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  270002 |                                               bytes, sizeof(val),
+    |  270003 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:270237:70: error: too few arguments to function call, expected 6, have 5
+    |  270235 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  270236 |                                               bytes, sizeof(val),
+    |  270237 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | src/lxml/etree.c:270440:70: error: too few arguments to function call, expected 6, have 5
+    |  270438 |                 int ret = _PyLong_AsByteArray((PyLongObject *)v,
+    |         |                           ~~~~~~~~~~~~~~~~~~~
+    |  270439 |                                               bytes, sizeof(val),
+    |  270440 |                                               is_little, !is_unsigned);
+    |         |                                                                      ^
+    | /opt/homebrew/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h:111:17: note: '_PyLong_AsByteArray' declared here
+    |   111 | PyAPI_FUNC(int) _PyLong_AsByteArray(PyLongObject* v,
+    |       |                 ^                   ~~~~~~~~~~~~~~~~
+    |   112 |     unsigned char* bytes, size_t n,
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |   113 |     int little_endian, int is_signed, int with_exceptions);
+    |       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    | 15 errors generated.
+    | Compile failed: command '/usr/bin/clang' failed with exit code 1
+    | creating var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T
+    | cc -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -I/usr/include/libxml2 -c /var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/xmlXPathInitoq4c_i0r.c -o var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/xmlXPathInitoq4c_i0r.o
+    | cc var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/xmlXPathInitoq4c_i0r.o -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -lxml2 -o a.out
+    | error: command '/usr/bin/clang' failed with exit code 1
+
+Note: This error originates from the build backend, and is likely not a problem with poetry but one of the following issues with lxml (4.9.4)
+
+  - not supporting PEP 517 builds
+  - not specifying PEP 517 build requirements correctly
+  - the build requirements are incompatible with your operating system or Python version
+  - the build requirements are missing system dependencies (eg: compilers, libraries, headers).
+
+You can verify this by running pip wheel --no-cache-dir --use-pep517 "lxml (==4.9.4)".
+
+
+PEP517 build of a dependency failed
+
+Backend subprocess exited when trying to invoke build_wheel
+
+    | Command '['/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1u6vhgti/.venv/bin/python', '/Users/x3p8/Library/Application Support/pypoetry/venv/lib/python3.13/site-packages/pyproject_hooks/_in_process/_in_process.py', 'build_wheel', '/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1e8h8dzz']' returned non-zero exit status 1.
+    | 
+    | /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmp1u6vhgti/.venv/lib/python3.13/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+    | !!
+    | 
+    |         ********************************************************************************
+    |         Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+    | 
+    |         By 2026-Feb-18, you need to update your project and remove deprecated calls
+    |         or your builds will no longer be supported.
+    | 
+    |         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+    |         ********************************************************************************
+    | 
+    | !!
+    |   corresp(dist, value, root_dir)
+    | running bdist_wheel
+    | running build
+    | running build_py
+    | creating build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/registry.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/__init__.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/core.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/model.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/load.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | copying tiktoken/_educational.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | creating build/lib.macosx-15.0-arm64-cpython-313/tiktoken_ext
+    | copying tiktoken_ext/openai_public.py -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken_ext
+    | running egg_info
+    | writing tiktoken.egg-info/PKG-INFO
+    | writing dependency_links to tiktoken.egg-info/dependency_links.txt
+    | writing requirements to tiktoken.egg-info/requires.txt
+    | writing top-level names to tiktoken.egg-info/top_level.txt
+    | reading manifest file 'tiktoken.egg-info/SOURCES.txt'
+    | reading manifest template 'MANIFEST.in'
+    | warning: no files found matching 'Makefile'
+    | adding license file 'LICENSE'
+    | writing manifest file 'tiktoken.egg-info/SOURCES.txt'
+    | copying tiktoken/py.typed -> build/lib.macosx-15.0-arm64-cpython-313/tiktoken
+    | running build_ext
+    | running build_rust
+    |     Updating crates.io index
+    |      Locking 41 packages to latest compatible versions
+    |       Adding fancy-regex v0.11.0 (available: v0.16.2)
+    |       Adding pyo3 v0.20.3 (available: v0.27.2)
+    |       Adding rustc-hash v1.1.0 (available: v2.1.1)
+    | cargo rustc --lib --message-format=json-render-diagnostics --manifest-path Cargo.toml --release -v --features pyo3/extension-module --crate-type cdylib -- -C link-args=-undefined dynamic_lookup -Wl,-install_name,@rpath/_tiktoken.cpython-313-darwin.so
+    |    Compiling target-lexicon v0.12.16
+    |    Compiling once_cell v1.21.3
+    |    Compiling proc-macro2 v1.0.103
+    |    Compiling quote v1.0.42
+    |    Compiling unicode-ident v1.0.22
+    |    Compiling libc v0.2.177
+    |    Compiling memchr v2.7.6
+    |    Compiling autocfg v1.5.0
+    |    Compiling regex-syntax v0.8.8
+    |    Compiling parking_lot_core v0.9.12
+    |    Compiling cfg-if v1.0.4
+    |    Compiling scopeguard v1.2.0
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/target-lexicon-0.12.16/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arch_zkasm", "default", "serde", "serde_support", "std"))' -C metadata=986c0304acc70926 -C extra-filename=-2bd6eb2ed5cc6fe1 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/target-lexicon-2bd6eb2ed5cc6fe1 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name once_cell --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/once_cell-1.21.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="race"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("alloc", "atomic-polyfill", "critical-section", "default", "parking_lot", "portable-atomic", "race", "std", "unstable"))' -C metadata=67ab67e940a8badb -C extra-filename=-5e1f7f381db5bf41 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.42/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "proc-macro"))' -C metadata=4c77fdecec429c15 -C extra-filename=-9d01b0aae6d84309 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/quote-9d01b0aae6d84309 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.103/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "nightly", "proc-macro", "span-locations"))' -C metadata=e3dbaf79a15d8186 -C extra-filename=-7b21634b29a1c781 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/proc-macro2-7b21634b29a1c781 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name unicode_ident --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unicode-ident-1.0.22/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=30dcc966ae3f9807 -C extra-filename=-2e6f4a843d576988 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.177/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no '--allow=clippy::used_underscore_binding' --allow=unused_qualifications '--warn=clippy::unnecessary_semicolon' '--allow=clippy::unnecessary_cast' '--allow=clippy::uninlined_format_args' '--warn=clippy::ptr_as_ptr' '--allow=clippy::non_minimal_cfg' '--allow=clippy::missing_safety_doc' '--warn=clippy::map_unwrap_or' '--warn=clippy::manual_assert' '--allow=clippy::identity_op' '--warn=clippy::explicit_iter_loop' '--allow=clippy::expl_impl_clone_on_copy' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=af9f513d0fe635e1 -C extra-filename=-e9bf9c06eff82148 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/libc-e9bf9c06eff82148 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name memchr --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memchr-2.7.6/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="alloc"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("alloc", "core", "default", "libc", "logging", "rustc-dep-of-std", "std", "use_std"))' -C metadata=b8e1868b4dfc4aac -C extra-filename=-03fdfe16ef3af4c4 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name autocfg --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=0fc5070b4b10cacc -C extra-filename=-b075e4a48716d9ba --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name regex_syntax --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-syntax-0.8.8/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --allow=unexpected_cfgs --check-cfg 'cfg(docsrs_regex)' --cfg 'feature="default"' --cfg 'feature="std"' --cfg 'feature="unicode"' --cfg 'feature="unicode-age"' --cfg 'feature="unicode-bool"' --cfg 'feature="unicode-case"' --cfg 'feature="unicode-gencat"' --cfg 'feature="unicode-perl"' --cfg 'feature="unicode-script"' --cfg 'feature="unicode-segment"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arbitrary", "default", "std", "unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment"))' -C metadata=2385703fb90db2b2 -C extra-filename=-cdbe196d92be64b4 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot_core-0.9.12/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("backtrace", "deadlock_detection", "nightly", "petgraph"))' -C metadata=020bc76337c09b3f -C extra-filename=-93a4f2ce62b1d292 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/parking_lot_core-93a4f2ce62b1d292 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name scopeguard --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/scopeguard-1.2.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "use_std"))' -C metadata=6a703e231b81ab3a -C extra-filename=-069b90040483efb1 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name cfg_if --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("core", "rustc-dep-of-std"))' -C metadata=addd495319d5b0c2 -C extra-filename=-6eefe2fc3463655c --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |    Compiling smallvec v1.15.1
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name smallvec --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/smallvec-1.15.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arbitrary", "bincode", "const_generics", "const_new", "debugger_visualizer", "drain_filter", "drain_keep_rest", "impl_bincode", "malloc_size_of", "may_dangle", "serde", "specialization", "union", "unty", "write"))' -C metadata=83a91505781f9f0b -C extra-filename=-be8472f0d7562dfa --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |    Compiling portable-atomic v1.11.1
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-atomic-1.11.1/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no '--warn=clippy::unused_trait_names' --warn=unreachable_pub --warn=unnameable_types --warn=unexpected_cfgs '--warn=clippy::undocumented_unsafe_blocks' '--warn=clippy::transmute_undefined_repr' '--warn=clippy::trailing_empty_array' --warn=single_use_lifetimes --warn=rust_2018_idioms '--warn=clippy::pedantic' --warn=non_ascii_idents '--warn=clippy::inline_asm_x86_att_syntax' --warn=improper_ctypes_definitions --warn=improper_ctypes --warn=deprecated_safe '--warn=clippy::default_union_representation' '--warn=clippy::as_underscore' '--warn=clippy::as_ptr_cast_mut' '--warn=clippy::all' '--allow=clippy::unreadable_literal' '--allow=clippy::type_complexity' '--allow=clippy::too_many_lines' '--allow=clippy::too_many_arguments' '--allow=clippy::struct_field_names' '--allow=clippy::struct_excessive_bools' '--allow=clippy::single_match_else' '--allow=clippy::single_match' '--allow=clippy::similar_names' '--allow=clippy::range_plus_one' '--allow=clippy::nonminimal_bool' '--allow=clippy::naive_bytecount' '--allow=clippy::module_name_repetitions' '--allow=clippy::missing_errors_doc' '--allow=clippy::manual_range_contains' '--allow=clippy::manual_assert' '--allow=clippy::lint_groups_priority' '--allow=clippy::incompatible_msrv' '--allow=clippy::float_cmp' '--allow=clippy::doc_markdown' '--allow=clippy::declare_interior_mutable_const' '--allow=clippy::cast_lossless' '--allow=clippy::borrow_as_ptr' '--allow=clippy::bool_assert_comparison' --check-cfg 'cfg(target_arch,values("xtensa"))' --check-cfg 'cfg(target_arch,values("amdgpu"))' --check-cfg 'cfg(target_arch,values("loongarch32"))' --check-cfg 'cfg(target_os,values("psx"))' --check-cfg 'cfg(target_env,values("psx"))' --check-cfg 'cfg(target_feature,values("lse2","lse128","rcpc3"))' --check-cfg 'cfg(target_feature,values("quadword-atomics"))' --check-cfg 'cfg(target_feature,values("zaamo","zabha"))' --check-cfg 'cfg(target_feature,values("zacas"))' --check-cfg 'cfg(target_pointer_width,values("128"))' --check-cfg 'cfg(portable_atomic_no_outline_atomics,portable_atomic_outline_atomics,portable_atomic_unstable_f16,portable_atomic_unstable_f128)' --check-cfg 'cfg(portable_atomic_unstable_coerce_unsized)' --check-cfg 'cfg(portable_atomic_test_detect_false,portable_atomic_test_no_std_static_assert_ffi,qemu,valgrind)' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="fallback"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("critical-section", "default", "disable-fiq", "fallback", "float", "force-amo", "require-cas", "s-mode", "serde", "std", "unsafe-assume-single-core"))' -C metadata=22c3b4e0be0ee9ba -C extra-filename=-a40f71be018643b8 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/portable-atomic-a40f71be018643b8 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |    Compiling heck v0.4.1
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name heck --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/heck-0.4.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "unicode", "unicode-segmentation"))' -C metadata=7587a5855c28ac30 -C extra-filename=-7d318d1748dfa576 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/parking_lot_core-93a4f2ce62b1d292/build-script-build`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/quote-9d01b0aae6d84309/build-script-build`
+    |    Compiling lock_api v0.4.14
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name lock_api --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.14/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="atomic_usize"' --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arc_lock", "atomic_usize", "default", "nightly", "owning_ref", "serde"))' -C metadata=21e4bb6dc55c2b88 -C extra-filename=-26bd56e60b472067 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern scopeguard=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libscopeguard-069b90040483efb1.rmeta --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/proc-macro2-7b21634b29a1c781/build-script-build`
+    |    Compiling bit-vec v0.6.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name bit_vec --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bit-vec-0.6.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "serde", "serde_no_std", "serde_std", "std"))' -C metadata=9b28e8bf2a78cc92 -C extra-filename=-8f26614ae6ab5eb0 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/libc-e9bf9c06eff82148/build-script-build`
+    |    Compiling unindent v0.2.4
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name unindent --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/unindent-0.2.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=9358052512a1e7ac -C extra-filename=-e13128bce29014f9 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |    Compiling indoc v2.0.7
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name indoc --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/indoc-2.0.7/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type proc-macro --emit=dep-info,link -C prefer-dynamic -C embed-bitcode=no -C debug-assertions=off --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=1bbb871459165f5f -C extra-filename=-45d2f2ee32ed410c --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern proc_macro --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name libc --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.177/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no '--allow=clippy::used_underscore_binding' --allow=unused_qualifications '--warn=clippy::unnecessary_semicolon' '--allow=clippy::unnecessary_cast' '--allow=clippy::uninlined_format_args' '--warn=clippy::ptr_as_ptr' '--allow=clippy::non_minimal_cfg' '--allow=clippy::missing_safety_doc' '--warn=clippy::map_unwrap_or' '--warn=clippy::manual_assert' '--allow=clippy::identity_op' '--warn=clippy::explicit_iter_loop' '--allow=clippy::expl_impl_clone_on_copy' --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("align", "const-extern-fn", "default", "extra_traits", "rustc-dep-of-std", "rustc-std-workspace-core", "std", "use_std"))' -C metadata=57ebabc47d254c83 -C extra-filename=-62567ee19ab2a319 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow --cfg freebsd12 --check-cfg 'cfg(emscripten_old_stat_abi)' --check-cfg 'cfg(espidf_time32)' --check-cfg 'cfg(freebsd10)' --check-cfg 'cfg(freebsd11)' --check-cfg 'cfg(freebsd12)' --check-cfg 'cfg(freebsd13)' --check-cfg 'cfg(freebsd14)' --check-cfg 'cfg(freebsd15)' --check-cfg 'cfg(gnu_file_offset_bits64)' --check-cfg 'cfg(gnu_time_bits64)' --check-cfg 'cfg(libc_deny_warnings)' --check-cfg 'cfg(libc_thread_local)' --check-cfg 'cfg(linux_time_bits64)' --check-cfg 'cfg(musl_v1_2_3)' --check-cfg 'cfg(target_os,values("switch","aix","ohos","hurd","rtems","visionos","nuttx","cygwin"))' --check-cfg 'cfg(target_env,values("illumos","wasi","aix","ohos","nto71_iosock","nto80"))' --check-cfg 'cfg(target_arch,values("loongarch64","mips32r6","mips64r6","csky"))'`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name proc_macro2 --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.103/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "nightly", "proc-macro", "span-locations"))' -C metadata=b3f6ea8bb244e681 -C extra-filename=-5fda63c33d8557fd --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern unicode_ident=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libunicode_ident-2e6f4a843d576988.rmeta --cap-lints allow --cfg wrap_proc_macro --cfg proc_macro_span_location --cfg proc_macro_span_file --check-cfg 'cfg(fuzzing)' --check-cfg 'cfg(no_is_available)' --check-cfg 'cfg(no_literal_byte_character)' --check-cfg 'cfg(no_literal_c_string)' --check-cfg 'cfg(no_source_text)' --check-cfg 'cfg(proc_macro_span)' --check-cfg 'cfg(proc_macro_span_file)' --check-cfg 'cfg(proc_macro_span_location)' --check-cfg 'cfg(procmacro2_backtrace)' --check-cfg 'cfg(procmacro2_build_probe)' --check-cfg 'cfg(procmacro2_nightly_testing)' --check-cfg 'cfg(procmacro2_semver_exempt)' --check-cfg 'cfg(randomize_layout)' --check-cfg 'cfg(span_locations)' --check-cfg 'cfg(super_unstable)' --check-cfg 'cfg(wrap_proc_macro)'`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/target-lexicon-2bd6eb2ed5cc6fe1/build-script-build`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name target_lexicon --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/target-lexicon-0.12.16/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arch_zkasm", "default", "serde", "serde_support", "std"))' -C metadata=c8693c2092f6cb9f -C extra-filename=-a6e611879fa9e887 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow --cfg 'feature="rust_1_40"'`
+    |    Compiling aho-corasick v1.1.4
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name aho_corasick --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aho-corasick-1.1.4/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="perf-literal"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "logging", "perf-literal", "std"))' -C metadata=1ef1ea0c41bc0b46 -C extra-filename=-291af6eee6a35bb6 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern memchr=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libmemchr-03fdfe16ef3af4c4.rmeta --cap-lints allow`
+    |    Compiling memoffset v0.9.1
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "unstable_const", "unstable_offset_of"))' -C metadata=1478ed48d137ef90 -C extra-filename=-ea9fd22cdba920b6 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/memoffset-ea9fd22cdba920b6 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern autocfg=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libautocfg-b075e4a48716d9ba.rlib --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/portable-atomic-a40f71be018643b8/build-script-build`
+    |    Compiling rustc-hash v1.1.0
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name rustc_hash --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustc-hash-1.1.0/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "std"))' -C metadata=36324b5adab6c17e -C extra-filename=-204dcc3b7baf77eb --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name portable_atomic --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-atomic-1.11.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no '--warn=clippy::unused_trait_names' --warn=unreachable_pub --warn=unnameable_types --warn=unexpected_cfgs '--warn=clippy::undocumented_unsafe_blocks' '--warn=clippy::transmute_undefined_repr' '--warn=clippy::trailing_empty_array' --warn=single_use_lifetimes --warn=rust_2018_idioms '--warn=clippy::pedantic' --warn=non_ascii_idents '--warn=clippy::inline_asm_x86_att_syntax' --warn=improper_ctypes_definitions --warn=improper_ctypes --warn=deprecated_safe '--warn=clippy::default_union_representation' '--warn=clippy::as_underscore' '--warn=clippy::as_ptr_cast_mut' '--warn=clippy::all' '--allow=clippy::unreadable_literal' '--allow=clippy::type_complexity' '--allow=clippy::too_many_lines' '--allow=clippy::too_many_arguments' '--allow=clippy::struct_field_names' '--allow=clippy::struct_excessive_bools' '--allow=clippy::single_match_else' '--allow=clippy::single_match' '--allow=clippy::similar_names' '--allow=clippy::range_plus_one' '--allow=clippy::nonminimal_bool' '--allow=clippy::naive_bytecount' '--allow=clippy::module_name_repetitions' '--allow=clippy::missing_errors_doc' '--allow=clippy::manual_range_contains' '--allow=clippy::manual_assert' '--allow=clippy::lint_groups_priority' '--allow=clippy::incompatible_msrv' '--allow=clippy::float_cmp' '--allow=clippy::doc_markdown' '--allow=clippy::declare_interior_mutable_const' '--allow=clippy::cast_lossless' '--allow=clippy::borrow_as_ptr' '--allow=clippy::bool_assert_comparison' --check-cfg 'cfg(target_arch,values("xtensa"))' --check-cfg 'cfg(target_arch,values("amdgpu"))' --check-cfg 'cfg(target_arch,values("loongarch32"))' --check-cfg 'cfg(target_os,values("psx"))' --check-cfg 'cfg(target_env,values("psx"))' --check-cfg 'cfg(target_feature,values("lse2","lse128","rcpc3"))' --check-cfg 'cfg(target_feature,values("quadword-atomics"))' --check-cfg 'cfg(target_feature,values("zaamo","zabha"))' --check-cfg 'cfg(target_feature,values("zacas"))' --check-cfg 'cfg(target_pointer_width,values("128"))' --check-cfg 'cfg(portable_atomic_no_outline_atomics,portable_atomic_outline_atomics,portable_atomic_unstable_f16,portable_atomic_unstable_f128)' --check-cfg 'cfg(portable_atomic_unstable_coerce_unsized)' --check-cfg 'cfg(portable_atomic_test_detect_false,portable_atomic_test_no_std_static_assert_ffi,qemu,valgrind)' --cfg 'feature="default"' --cfg 'feature="fallback"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("critical-section", "default", "disable-fiq", "fallback", "float", "force-amo", "require-cas", "s-mode", "serde", "std", "unsafe-assume-single-core"))' -C metadata=a547f4f9a2421a99 -C extra-filename=-4e682a1380fa8e3a --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow --check-cfg 'cfg(target_feature,values("lsfe","fast-serialization","load-store-on-cond","distinct-ops","miscellaneous-extensions-3"))' --check-cfg 'cfg(portable_atomic_disable_fiq,portable_atomic_force_amo,portable_atomic_ll_sc_rmw,portable_atomic_atomic_intrinsics,portable_atomic_no_asm,portable_atomic_no_asm_maybe_uninit,portable_atomic_no_atomic_64,portable_atomic_no_atomic_cas,portable_atomic_no_atomic_load_store,portable_atomic_no_atomic_min_max,portable_atomic_no_cfg_target_has_atomic,portable_atomic_no_cmpxchg16b_intrinsic,portable_atomic_no_cmpxchg16b_target_feature,portable_atomic_no_const_mut_refs,portable_atomic_no_const_raw_ptr_deref,portable_atomic_no_const_transmute,portable_atomic_no_core_unwind_safe,portable_atomic_no_diagnostic_namespace,portable_atomic_no_offset_of,portable_atomic_no_strict_provenance,portable_atomic_no_stronger_failure_ordering,portable_atomic_no_track_caller,portable_atomic_no_unsafe_op_in_unsafe_fn,portable_atomic_pre_llvm_15,portable_atomic_pre_llvm_16,portable_atomic_pre_llvm_18,portable_atomic_pre_llvm_20,portable_atomic_s_mode,portable_atomic_sanitize_thread,portable_atomic_target_feature,portable_atomic_unsafe_assume_single_core,portable_atomic_unstable_asm,portable_atomic_unstable_asm_experimental_arch,portable_atomic_unstable_cfg_target_has_atomic,portable_atomic_unstable_isa_attribute)' --check-cfg 'cfg(portable_atomic_target_feature,values("cmpxchg16b","distinct-ops","fast-serialization","load-store-on-cond","lse","lse128","lse2","lsfe","mclass","miscellaneous-extensions-3","quadword-atomics","rcpc3","v6","zaamo","zabha","zacas"))'`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/memoffset-ea9fd22cdba920b6/build-script-build`
+    |    Compiling bit-set v0.5.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name bit_set --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bit-set-0.5.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --cfg 'feature="std"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "std"))' -C metadata=3138541335fcf909 -C extra-filename=-129cefb7237cbfce --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern bit_vec=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libbit_vec-8f26614ae6ab5eb0.rmeta --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name memoffset --edition=2015 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.9.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "unstable_const", "unstable_offset_of"))' -C metadata=181added81fabd3e -C extra-filename=-3e1c10d57e8c9973 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --cap-lints allow --cfg tuple_ty --cfg allow_clippy --cfg maybe_uninit --cfg doctests --cfg raw_ref_macros --cfg stable_const --cfg stable_offset_of`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name parking_lot_core --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot_core-0.9.12/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("backtrace", "deadlock_detection", "nightly", "petgraph"))' -C metadata=7d8bb2c2bfe4887e -C extra-filename=-668da6859fa8d0a9 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern cfg_if=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libcfg_if-6eefe2fc3463655c.rmeta --extern libc=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/liblibc-62567ee19ab2a319.rmeta --extern smallvec=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libsmallvec-be8472f0d7562dfa.rmeta --cap-lints allow --check-cfg 'cfg(tsan_enabled)'`
+    |    Compiling pyo3-build-config v0.20.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.20.3/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "python3-dll-a", "resolve-config"))' -C metadata=bc23d949ccad075f -C extra-filename=-7031666f70ffd2f2 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-build-config-7031666f70ffd2f2 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern target_lexicon=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libtarget_lexicon-a6e611879fa9e887.rlib --cap-lints allow`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name quote --edition=2018 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.42/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "proc-macro"))' -C metadata=a0e1f9fb5a40f31b -C extra-filename=-df30d9d999dae0ff --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern proc_macro2=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libproc_macro2-5fda63c33d8557fd.rmeta --cap-lints allow --check-cfg 'cfg(no_diagnostic_namespace)'`
+    |    Compiling syn v2.0.111
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name syn --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-2.0.111/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="clone-impls"' --cfg 'feature="default"' --cfg 'feature="derive"' --cfg 'feature="extra-traits"' --cfg 'feature="full"' --cfg 'feature="parsing"' --cfg 'feature="printing"' --cfg 'feature="proc-macro"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("clone-impls", "default", "derive", "extra-traits", "fold", "full", "parsing", "printing", "proc-macro", "test", "visit", "visit-mut"))' -C metadata=748ad57da1eb714e -C extra-filename=-e26f639bf45aad71 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern proc_macro2=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libproc_macro2-5fda63c33d8557fd.rmeta --extern quote=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libquote-df30d9d999dae0ff.rmeta --extern unicode_ident=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libunicode_ident-2e6f4a843d576988.rmeta --cap-lints allow`
+    |    Compiling parking_lot v0.12.5
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name parking_lot --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parking_lot-0.12.5/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="default"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("arc_lock", "deadlock_detection", "default", "hardware-lock-elision", "nightly", "owning_ref", "send_guard", "serde"))' -C metadata=cffbd0f19a39a1b1 -C extra-filename=-536ce27fa7efba7b --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern lock_api=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/liblock_api-26bd56e60b472067.rmeta --extern parking_lot_core=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libparking_lot_core-668da6859fa8d0a9.rmeta --cap-lints allow`
+    |    Compiling regex-automata v0.4.13
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name regex_automata --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-automata-0.4.13/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --allow=unexpected_cfgs --check-cfg 'cfg(docsrs_regex)' --cfg 'feature="alloc"' --cfg 'feature="dfa-onepass"' --cfg 'feature="dfa-search"' --cfg 'feature="hybrid"' --cfg 'feature="meta"' --cfg 'feature="nfa-backtrack"' --cfg 'feature="nfa-pikevm"' --cfg 'feature="nfa-thompson"' --cfg 'feature="perf-inline"' --cfg 'feature="perf-literal"' --cfg 'feature="perf-literal-multisubstring"' --cfg 'feature="perf-literal-substring"' --cfg 'feature="std"' --cfg 'feature="syntax"' --cfg 'feature="unicode"' --cfg 'feature="unicode-age"' --cfg 'feature="unicode-bool"' --cfg 'feature="unicode-case"' --cfg 'feature="unicode-gencat"' --cfg 'feature="unicode-perl"' --cfg 'feature="unicode-script"' --cfg 'feature="unicode-segment"' --cfg 'feature="unicode-word-boundary"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("alloc", "default", "dfa", "dfa-build", "dfa-onepass", "dfa-search", "hybrid", "internal-instrument", "internal-instrument-pikevm", "logging", "meta", "nfa", "nfa-backtrack", "nfa-pikevm", "nfa-thompson", "perf", "perf-inline", "perf-literal", "perf-literal-multisubstring", "perf-literal-substring", "std", "syntax", "unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment", "unicode-word-boundary"))' -C metadata=18c10c911cbca7c2 -C extra-filename=-7a2c2fe4869e9629 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern aho_corasick=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libaho_corasick-291af6eee6a35bb6.rmeta --extern memchr=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libmemchr-03fdfe16ef3af4c4.rmeta --extern regex_syntax=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libregex_syntax-cdbe196d92be64b4.rmeta --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-build-config-7031666f70ffd2f2/build-script-build`
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name pyo3_build_config --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-build-config-0.20.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="resolve-config"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "python3-dll-a", "resolve-config"))' -C metadata=7e2835d37ff192db -C extra-filename=-27a01cc0adf83bde --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern once_cell=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libonce_cell-5e1f7f381db5bf41.rmeta --extern target_lexicon=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libtarget_lexicon-a6e611879fa9e887.rmeta --cap-lints allow`
+    |    Compiling pyo3-macros-backend v0.20.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name pyo3_macros_backend --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-macros-backend-0.20.3/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes --allow=unused_imports '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions --warn=rust_2018_idioms '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths --allow=dead_code '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values())' -C metadata=df0ad9cc56de0f6e -C extra-filename=-7ffd742a42d8273d --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern heck=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libheck-7d318d1748dfa576.rmeta --extern proc_macro2=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libproc_macro2-5fda63c33d8557fd.rmeta --extern pyo3_build_config=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libpyo3_build_config-27a01cc0adf83bde.rmeta --extern quote=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libquote-df30d9d999dae0ff.rmeta --extern syn=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libsyn-e26f639bf45aad71.rmeta --cap-lints allow`
+    |    Compiling pyo3-ffi v0.20.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-ffi-0.20.3/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes --allow=unused_imports '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions --warn=rust_2018_idioms '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths --allow=dead_code '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "default", "extension-module", "generate-import-lib"))' -C metadata=974bf4ebfa98ec8b -C extra-filename=-7a547e73121ca5fd --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-ffi-7a547e73121ca5fd -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern pyo3_build_config=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libpyo3_build_config-27a01cc0adf83bde.rlib --cap-lints allow`
+    |    Compiling pyo3 v0.20.3
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name build_script_build --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pyo3-0.20.3/build.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type bin --emit=dep-info,link -C embed-bitcode=no '--warn=clippy::useless_transmute' '--warn=clippy::used_underscore_binding' --warn=unused_lifetimes --allow=unused_imports '--warn=clippy::unnecessary_wraps' '--warn=clippy::todo' --warn=rust_2021_prelude_collisions --warn=rust_2018_idioms '--warn=clippy::manual_ok_or' '--warn=clippy::manual_assert' '--warn=clippy::let_unit_value' --warn=invalid_doc_attributes '--warn=clippy::flat_map_option' '--warn=clippy::filter_map_next' '--warn=clippy::explicit_iter_loop' '--warn=clippy::explicit_into_iter_loop' --warn=elided_lifetimes_in_paths --allow=dead_code '--warn=clippy::dbg_macro' '--warn=clippy::checked_conversions' '--warn=rustdoc::broken_intra_doc_links' '--warn=rustdoc::bare_urls' -C debug-assertions=off --cfg 'feature="default"' --cfg 'feature="extension-module"' --cfg 'feature="indoc"' --cfg 'feature="macros"' --cfg 'feature="pyo3-macros"' --cfg 'feature="unindent"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("abi3", "abi3-py310", "abi3-py311", "abi3-py312", "abi3-py37", "abi3-py38", "abi3-py39", "anyhow", "auto-initialize", "chrono", "default", "either", "experimental-inspect", "extension-module", "eyre", "full", "generate-import-lib", "hashbrown", "indexmap", "indoc", "inventory", "macros", "multiple-pymethods", "nightly", "num-bigint", "num-complex", "pyo3-macros", "rust_decimal", "serde", "smallvec", "unindent"))' -C metadata=eeba532118ccb6c2 -C extra-filename=-eeea7dff8f270377 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-eeea7dff8f270377 -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern pyo3_build_config=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libpyo3_build_config-27a01cc0adf83bde.rlib --cap-lints allow`
+    |    Compiling regex v1.12.2
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name regex --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/regex-1.12.2/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --allow=unexpected_cfgs --check-cfg 'cfg(docsrs_regex)' --cfg 'feature="default"' --cfg 'feature="perf"' --cfg 'feature="perf-backtrack"' --cfg 'feature="perf-cache"' --cfg 'feature="perf-dfa"' --cfg 'feature="perf-inline"' --cfg 'feature="perf-literal"' --cfg 'feature="perf-onepass"' --cfg 'feature="std"' --cfg 'feature="unicode"' --cfg 'feature="unicode-age"' --cfg 'feature="unicode-bool"' --cfg 'feature="unicode-case"' --cfg 'feature="unicode-gencat"' --cfg 'feature="unicode-perl"' --cfg 'feature="unicode-script"' --cfg 'feature="unicode-segment"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("default", "logging", "pattern", "perf", "perf-backtrack", "perf-cache", "perf-dfa", "perf-dfa-full", "perf-inline", "perf-literal", "perf-onepass", "std", "unicode", "unicode-age", "unicode-bool", "unicode-case", "unicode-gencat", "unicode-perl", "unicode-script", "unicode-segment", "unstable", "use_std"))' -C metadata=3fcf2bcaf621e400 -C extra-filename=-e8601368163f0cb3 --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern aho_corasick=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libaho_corasick-291af6eee6a35bb6.rmeta --extern memchr=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libmemchr-03fdfe16ef3af4c4.rmeta --extern regex_automata=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libregex_automata-7a2c2fe4869e9629.rmeta --extern regex_syntax=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libregex_syntax-cdbe196d92be64b4.rmeta --cap-lints allow`
+    |      Running `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-ffi-7a547e73121ca5fd/build-script-build`
+    |    Compiling bstr v1.12.1
+    |      Running `/Users/x3p8/.rustup/toolchains/stable-x86_64-apple-darwin/bin/rustc --crate-name bstr --edition=2021 /Users/x3p8/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bstr-1.12.1/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no --cfg 'feature="alloc"' --cfg 'feature="default"' --cfg 'feature="std"' --cfg 'feature="unicode"' --check-cfg 'cfg(docsrs,test)' --check-cfg 'cfg(feature, values("alloc", "default", "serde", "std", "unicode"))' -C metadata=a76d38674f92c750 -C extra-filename=-b54910b1e490ac2e --out-dir /private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps -C strip=debuginfo -L dependency=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps --extern memchr=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libmemchr-03fdfe16ef3af4c4.rmeta --extern regex_automata=/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/deps/libregex_automata-7a2c2fe4869e9629.rmeta --cap-lints allow`
+    | error: failed to run custom build command for `pyo3-ffi v0.20.3`
+    | 
+    | Caused by:
+    |   process didn't exit successfully: `/private/var/folders/64/06r_p0vn1llg15h98nf1fn4c0000gr/T/tmpd55pngka/tiktoken-0.7.0/target/release/build/pyo3-ffi-7a547e73121ca5fd/build-script-build` (exit status: 1)
+    |   --- stdout
+    |   cargo:rerun-if-env-changed=PYO3_CROSS
+    |   cargo:rerun-if-env-changed=PYO3_CROSS_LIB_DIR
+    |   cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_VERSION
+    |   cargo:rerun-if-env-changed=PYO3_CROSS_PYTHON_IMPLEMENTATION
+    |   cargo:rerun-if-env-changed=PYO3_PRINT_CONFIG
+    |   cargo:rerun-if-env-changed=PYO3_USE_ABI3_FORWARD_COMPATIBILITY
+    | 
+    |   --- stderr
+    |   error: the configured Python interpreter version (3.13) is newer than PyO3's maximum supported version (3.12)
+    |   = help: please check if an updated version of PyO3 is available. Current version: 0.20.3
+    |   = help: set PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 to suppress this check and build anyway using the stable ABI
+    | warning: build failed, waiting for other jobs to finish...
+    | error: `cargo rustc --lib --message-format=json-render-diagnostics --manifest-path Cargo.toml --release -v --features pyo3/extension-module --crate-type cdylib -- -C 'link-args=-undefined dynamic_lookup -Wl,-install_name,@rpath/_tiktoken.cpython-313-darwin.so'` failed with code 101
+
+Note: This error originates from the build backend, and is likely not a problem with poetry but one of the following issues with tiktoken (0.7.0)
+
+  - not supporting PEP 517 builds
+  - not specifying PEP 517 build requirements correctly
+  - the build requirements are incompatible with your operating system or Python version
+  - the build requirements are missing system dependencies (eg: compilers, libraries, headers).
+
+You can verify this by running pip wheel --no-cache-dir --use-pep517 "tiktoken (==0.7.0)".
+
